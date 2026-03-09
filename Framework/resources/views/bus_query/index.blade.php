@@ -2,7 +2,7 @@
 
 @section('content')
 
-<h2>Data Bus (Query Builder)</h2>
+<h2>Data Bus</h2>
 
 <table id="table" class="display">
 
@@ -10,7 +10,7 @@
 <tr>
 <th>ID</th>
 <th>Nama Bus</th>
-<th>Plat</th>
+<th>Plat Nomor</th>
 <th>Kapasitas</th>
 <th>Status</th>
 </tr>
@@ -31,6 +31,7 @@
 @endforeach
 
 </tbody>
+
 </table>
 
 @endsection

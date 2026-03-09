@@ -2,7 +2,7 @@
 
 @section('content')
 
-<h2>Data Bus (Query Builder)</h2>
+<h2>Data Bus (Eloquent)</h2>
 
 <table id="table" class="display">
 
@@ -31,6 +31,7 @@
 @endforeach
 
 </tbody>
+
 </table>
 
 @endsection

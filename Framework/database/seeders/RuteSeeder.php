@@ -2,16 +2,26 @@
 
 namespace Database\Seeders;
 
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
 
 class RuteSeeder extends Seeder
 {
-    /**
-     * Run the database seeds.
-     */
     public function run(): void
     {
-        //
+        DB::table('rutes')->insert([
+            [
+                'kota_asal' => 'Surabaya',
+                'kota_tujuan' => 'Malang'
+            ],
+            [
+                'kota_asal' => 'Surabaya',
+                'kota_tujuan' => 'Jakarta'
+            ],
+            [
+                'kota_asal' => 'Malang',
+                'kota_tujuan' => 'Yogyakarta'
+            ]
+        ]);
     }
 }
